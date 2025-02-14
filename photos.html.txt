@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотографии Фунтика</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #ffb6c1, #ff4d6d);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1 {
+            margin-top: 20px;
+            color: #ffffff;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .link {
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: #ff4d6d;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .link:hover {
+            background-color: #ff2a47;
+        }
+    </style>
+</head>
+<body>
+    <h1>Фотографии Фунтика! ❤️</h1>
+    <div class="gallery">
+        <img src="images/P84wzzCLKw8.jpg" alt="Фото 1">
+        <img src="images/QY40s81Y0IA.jpg" alt="Фото 2">
+        <img src="images/UZcgXlNLaDw.jpg" alt="Фото 3">
+    </div>
+    <a href="index.html" class="link">Вернуться на главную</a>
+</body>
+</html>

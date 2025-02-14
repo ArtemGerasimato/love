@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Я тебя люблю, мой Фунтик ❤️</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #ffb6c1, #ff4d6d);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1 {
+            margin-top: 20px;
+            color: #ffffff;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .link {
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: #ff4d6d;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .link:hover {
+            background-color: #ff2a47;
+        }
+    </style>
+</head>
+<body>
+    <h1>Я тебя люблю, мой Фунтик! ❤️</h1>
+    <a href="photos.html" class="link">Посмотреть фотографии</a>
+</body>
+</html>
